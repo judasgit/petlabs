@@ -1,0 +1,95 @@
+body {
+    background-color: #CC7777;
+}
+
+.bloque-inicial {
+    height: 50vh;
+}
+
+#titulo {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top:40%;
+}
+
+footer {
+    height: 10vh;
+    bottom: 0;
+    background-color: #333333;
+    width: 100%;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    position: relative;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: #333333;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+
+.seccion-catalogo {
+    min-height: 90vh;
+}
+
+.titulo-catalogo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt-catalogo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.boton-mas {
+    font-size: 20px;
+    float: right;
+}
+
+.contenedor-acciones {
+    text-align: center;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.float-right {
+    float: right;
+}
+
+.total {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*********** BOOTSTRAP *******/
+.navbar-brand {
+    font-size: 2rem !important;
+}
+
+.nav-item {
+    font-size: 1.7rem !important;
+}
+
+.navbar {
+    box-shadow: 3px 3px 10px #285f82;
+    background-color: #67afbf;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para mantener el navbar encima del contenido */
+}
+/* Ejemplo de CSS para el navbar */
+.content{
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+    text-align: center;
+}
